@@ -15,5 +15,15 @@
     "url": "https://github.com/mehtaabhi24/20749/issues"
   },
   "homepage": "https://github.com/mehtaabhi24/20749#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "mysql2": "^3.14.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
 }
