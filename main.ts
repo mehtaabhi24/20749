@@ -19,9 +19,9 @@ async function main() {
 
         // Configure ETL input for local file
         const localMsg: EtlInput = {
-            sourceType: 'CSV',
-            dataLocation: path.resolve(__dirname, 'AppOmni_IssueFile.csv'),
-            dataSource: 'LOCAL'
+            sourceType: 'S3',
+            dataLocation: 'mys3-bucket/AppOmni_IssueFile.csv',
+            dataSource: 'S3'
         };
 
         // Process ETL
